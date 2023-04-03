@@ -1,0 +1,31 @@
+.sidwbarFriend{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.sidebarfriship{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sideFriendImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 1px solid #011631;
+}
+.sidebarFriendName{
+    font-weight: 500;
+    color: black;
+}
+
+/* responsive */
+@media  only screen and (max-width:992px){
+    .sidebarFriendName{
+        display: none;
+    }
+}

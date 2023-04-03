@@ -1,0 +1,124 @@
+
+.post{
+    width: 100%;
+    margin: 30px 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+
+    .postWrapper{
+        padding: 20px;
+        .postTop{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .postTopLeft{
+                display: flex;
+                align-items: center;
+
+
+                .postProfileImg{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    cursor: pointer;
+                }
+                .postUserName{
+                    font-size: 15px;
+                    font-weight: 500;
+                    margin: 0 10px ;
+                    cursor: pointer;
+
+                }
+                .postDate{
+                    font-size: 14px;
+
+                }
+            }
+            .postVertButton{
+                font-size: 30px;
+                color: #333;
+                cursor: pointer;
+            }
+
+        }
+    }
+    .postcenter{
+        margin: 20px 0;
+        .postImg{
+            width: 100%;
+            object-fit: contain;
+            max-height: 500px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    }
+    .postbottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60%;
+        .postBootomleft{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .bottomLeftIcon{
+                font-size: 30px;
+                cursor: pointer;
+            }
+            .postlikecounter{
+                font-size: 15px;
+
+            }
+        }
+        .postBottomRight{
+           
+            .postCommentText{
+                
+                font-size: 15px;    
+                cursor: pointer;
+                
+            }
+        }
+
+    }
+    .postBottomFooter{
+        display: flex;
+        align-items: center;
+        padding: 7px;
+        cursor: pointer;
+        gap: 10px;
+        justify-content: space-between;
+
+    }
+    .footerHr{
+        margin: 10px 0;
+
+      } 
+        .footerIcon{
+            color: #333;
+            font-size: 30px;
+            margin-right: 10px;
+
+            
+        }
+    .footerText{
+                font-weight: 500;
+        display: flex;
+        text-align: center;
+            }
+}
+.postbottomfooterItem{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.postbottomfooterItem:hover{
+    background-color: rgba(0,0,0,0.3);
+}
