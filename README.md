@@ -8,6 +8,13 @@
 ![Screenshot (76)](https://user-images.githubusercontent.com/124488153/229410853-687f2400-7a93-4408-9efc-1b17b1fd6dd4.png)
 
 
+# to acces
+1. install npm 
+2. npm init
+3. install sass and material ui
+4. install react router dom
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
